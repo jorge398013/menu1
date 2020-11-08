@@ -1,0 +1,82 @@
+body{
+    font-family: Georgia, Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    margin: 0;
+    
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p{
+    margin-bottom: 1.6rem;
+
+}
+.container{
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #333;
+    color:white;
+    padding: 2rem 0;
+    
+    position: fixed;
+    left:0;
+    top:0;
+    right:0;
+
+
+}
+.header a{
+    color:white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.navigation ul li {
+    display:inline-block ;
+
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s;
+
+
+}
+.navigation ul li a :hover {
+    background:#4a4a4a ;
+
+}
+
+.main{
+    padding: 12rem;
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+
+}
